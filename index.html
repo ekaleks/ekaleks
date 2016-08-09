@@ -2,12 +2,12 @@
 <html lang="ru-RU">
 
 <head> 
+<title>Обо мне</title>
 <meta charset="utf-8"/>
 <link rel="stylesheet" href="css/normalize.css">
 <link rel="stylesheet" href="css/style.css">
 <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-<title>Обо мне</title>
 </head>
 
 <body>
@@ -15,30 +15,43 @@
 <header class="main-header">
 <h1>Сайт начинающего HTML-верстальщика</h1>
 <div class="main-menu">
-<a href="index.html" class="active">Обо мне</a>
-<a href="cod.html">Моя верстка</a>
+<a href="index.html" class="active">Обо мне</a><!--
+--><a href="cod.html">Моя верстка</a>
 </div>
 </header>
 
 <div class="main-content">
-<img class="main-foto" src="img/kate.jpg"> 
-<p>Меня зовут Екатерина Алексеева.
+<div class="content-column main-foto">
+<img src="img/kate.jpg">
+</div><!--
+--><div class="content-column main-text"><p>
+Меня зовут Екатерина Алексеева.
 Занимаюсь html-версткой.
 Обучаюсь самостоятельно.
 Успешно прошла <a href="https://htmlacademy.ru/intensive/htmlcss"> <b>базовый интенсив</b> <b>HTML ACADEMY</b></a>.
 Если Вам нужен неопытный, но старательный и обучаемый верстальщик
  или помощник верстальщика, то я рада буду с Вами работать!
 
-</p>
+</p></div>
 </div>
 
-<footer>
+<footer class="main-footer">
+
+<div class="footer-column contacts">
 <p>Контакты:<br/>
 mail: klem4@yandex.ru<br/>
 tel: +7(903)972-65-80</p>
+<a href="mailto:klem4@yandex.ru">Напишите мне</a>
+</div><!--
 
-<div class="">
-<a href="https://htmlacademy.ru/"></a>
+--><div class="footer-column social-btn">
+<a href="https://github.com/ekaleks"><i class="fa fa-github"></i></a>
+<a href="skype:klem323"><i class="fa fa-skype"></i></a>
+<a href="https://htmlacademy.ru/profile/id16605"class="academy-prof"><i class="fa-academy-prof"></i></a>
+</div><!--
+
+--><div class="footer-column link-academy">
+<a href="https://htmlacademy.ru/">HTML ACADEMY</a>
 </div>
 </footer>
 </div>
