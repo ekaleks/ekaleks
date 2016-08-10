@@ -174,20 +174,43 @@ padding-bottom:20px;
 border-top:1px solid #0d310c;
 border-bottom:1px solid #0d310c;
 }
-.skills{
+.main-content-skills a{
+    font-weight:bold;
+text-decoration:none;
+    color:#f6c407;  }
+.main-content-skills a:hover {color:#ffffff;}
+
+.main-skills{
     width:67%;
 float:left;
 }
-.certificate{
+.main-certificate{
     width:33%;
     float:right;
 }
-.certificate img{
+.main-certificate img{
     width:50px;
     height:100px;
 }
-
+.popap-certificate{
+    display:none;
+    position:fixed;
+    z-index:2;
+    top:100px;
+    left:50%;
+    margin-left:-175px;
+    width:350px;
+    height:495px;
+    background:#ffffff url("../img/HTMLAcademy-16605.jpeg") no-repeat;
+    background-size:100%; 
+}
+.popap-certificate-show{display:block;}
 /*impose*/
+.main-content-impose a{ 
+font-weight:bold;
+text-decoration:none;
+    color:#f6c407;  }
+.main-content-impose a:hover {color:#ffffff;}
 .main-content-impose{
  min-height:350px;  
 color:#0d310c;
@@ -198,7 +221,7 @@ padding-bottom:20px;
 border-top:1px solid #0d310c;
 border-bottom:1px solid #0d310c;
 }
-.nerds{
+.project-nerds{
     width:40%;
 float:left;
 padding-top:20px;
@@ -207,7 +230,38 @@ padding-left:5%;
 padding-right:5%;
 
 }
-.sedona{
+.project-nerds img{
+    display:inline-block;
+    vertical-align:top;
+    padding:10px;}
+.project-nerds h2{margin-left:10px;}
+.popap-nerds-index{
+    display:none;
+    position:fixed;
+    z-index:2;
+    top:15px;
+    left:50%;
+    margin-left:-175px;
+    width:350px;
+    height:650px;
+    background:#ffffff url("../img/nerds1.jpg") no-repeat;
+    background-size:100%; 
+}
+/*.popap-nerds-show{display:block;}*/
+.popap-nerds-catalog{
+    display:none;
+    position:fixed;
+    z-index:2;
+    top:15px;
+    left:50%;
+    margin-left:-175px;
+    width:350px;
+    height:650px;
+    background:#ffffff url("../img/nerds-katalog2.png") no-repeat;
+    background-size:100%; 
+}
+/*.popap-nerds-catalog-show{display:block;}*/
+.project-sedona{
     width:40%;
 float:right;
 padding-top:20px;
@@ -215,3 +269,34 @@ padding-bottom:20px;
 padding-left:5%;
 padding-right:5%;
 }
+.project-sedona img{
+    display:inline-block;
+    vertical-align:top;
+    padding:10px;}
+.project-sedona h2{margin-left:10px;}
+.popap-sedona-index{
+    display:none;
+    position:absolute;
+    z-index:2;
+    top:15px;
+    left:50%;
+    margin-left:-100px;
+    width:200px;
+    height:720px;
+    background:#ffffff url("../img/sedona-index-768.jpg") no-repeat;
+    background-size:100%; 
+}
+/*.popap-sedona-index-show{display:block;}*/
+.popap-sedona-catalog{
+    display:none;
+    position:fixed;
+    z-index:2;
+    top:100px;
+    left:50%;
+    margin-left:-200px;
+    width:400px;
+    height:480px;
+    background:#ffffff url("../img/sedona-768.jpg") no-repeat;
+    background-size:100%; 
+}
+/*.popap-sedona-catalog-show{display:block;}*/
