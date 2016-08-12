@@ -181,16 +181,25 @@ text-decoration:none;
 .main-content-skills a:hover {color:#ffffff;}
 
 .main-skills{
-    width:67%;
-float:left;
+    width:57%;
+    float:left;
+    padding-left:5%;
+    padding-right:5%;
+    padding-top:10px;
+    padding-bottom:10px;
 }
 .main-certificate{
-    width:33%;
+    width:23%;
     float:right;
+    padding-left:5%;
+    padding-right:5%;
+    padding-top:10px;
+    padding-bottom:10px;
 }
 .main-certificate img{
-    width:50px;
-    height:100px;
+    width:100px;
+    height:150px;
+    border:1px solid #0d310c;
 }
 .popap-certificate{
     display:none;
@@ -203,9 +212,25 @@ float:left;
     height:495px;
     background:#ffffff url("../img/HTMLAcademy-16605.jpeg") no-repeat;
     background-size:100%; 
+    border:1px solid #0d310c;
+    box-shadow:0px 10px 60px -5px #000000;
 }
-.popap-certificate-show{display:block;}
-/*impose*/
+.popap-certificate-show{
+    display:block;}
+.popap-certificate .popap-close{
+     font-family: "FontAwesome";
+    padding-top:0px;
+    padding-bottom:0px;
+    font-size: 32px;
+    line-height: 32px;
+    color:#0d310c;
+    position: absolute;
+    top: -30px;
+    right:-30px;
+    background-color:transparent;
+    
+} 
+ /*impose*/ 
 .main-content-impose a{ 
 font-weight:bold;
 text-decoration:none;
@@ -233,34 +258,56 @@ padding-right:5%;
 .project-nerds img{
     display:inline-block;
     vertical-align:top;
-    padding:10px;}
+    margin:10px;
+    border:1px solid #0d310c;}
 .project-nerds h2{margin-left:10px;}
 .popap-nerds-index{
     display:none;
     position:fixed;
     z-index:2;
-    top:15px;
+    top:30px;
     left:50%;
     margin-left:-175px;
-    width:350px;
-    height:650px;
+    width:340px;
+    height:630px;
     background:#ffffff url("../img/nerds1.jpg") no-repeat;
     background-size:100%; 
+    border:1px solid #0d310c;
+    box-shadow:0px 10px 60px -5px #000000;
 }
-/*.popap-nerds-show{display:block;}*/
+.popap-nerds-index:target{
+    display:block;}
+
 .popap-nerds-catalog{
     display:none;
     position:fixed;
     z-index:2;
-    top:15px;
+    top:30px;
     left:50%;
     margin-left:-175px;
-    width:350px;
-    height:650px;
+    width:340px;
+    height:630px;
     background:#ffffff url("../img/nerds-katalog2.png") no-repeat;
     background-size:100%; 
+    border:1px solid #0d310c;
+    box-shadow:0px 10px 60px -5px #000000;
 }
-/*.popap-nerds-catalog-show{display:block;}*/
+.popap-nerds-catalog:target{
+    display:block;}
+.project-nerds .popap-close {  
+font-family: "FontAwesome";
+    padding-top:0px;
+    padding-bottom:0px;
+    font-size: 32px;
+    line-height: 32px;
+    color:#0d310c;
+    position: absolute;
+    top: -30px;
+    right:-30px;
+    background-color:transparent;
+    
+}    
+    
 .project-sedona{
     width:40%;
 float:right;
@@ -272,21 +319,26 @@ padding-right:5%;
 .project-sedona img{
     display:inline-block;
     vertical-align:top;
-    padding:10px;}
+    margin:10px;
+    border:1px solid #0d310c;}
 .project-sedona h2{margin-left:10px;}
 .popap-sedona-index{
     display:none;
     position:absolute;
     z-index:2;
-    top:15px;
+    top:30px;
     left:50%;
     margin-left:-100px;
     width:200px;
     height:720px;
     background:#ffffff url("../img/sedona-index-768.jpg") no-repeat;
     background-size:100%; 
+    border:1px solid #0d310c;
+    box-shadow:0px 10px 60px -5px #000000;
 }
-/*.popap-sedona-index-show{display:block;}*/
+.popap-sedona-index:target{
+    display:block;}
+
 .popap-sedona-catalog{
     display:none;
     position:fixed;
@@ -298,5 +350,20 @@ padding-right:5%;
     height:480px;
     background:#ffffff url("../img/sedona-768.jpg") no-repeat;
     background-size:100%; 
+    border:1px solid #0d310c;
+    box-shadow:0px 10px 60px -5px #000000;
 }
-/*.popap-sedona-catalog-show{display:block;}*/
+.popap-sedona-catalog:target{
+    display:block;}
+ .project-sedona .popap-close {  font-family: "FontAwesome";
+    padding-top:0px;
+    padding-bottom:0px;
+    font-size: 32px;
+    line-height: 32px;
+    color:#0d310c;
+    position: absolute;
+    top: -30px;
+    right:-30px;
+    background-color:transparent;
+    
+}    
