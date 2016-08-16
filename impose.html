@@ -1,85 +1,107 @@
-<DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ru-RU">
 
-<head> 
-<title>Обо мне</title>
-<meta charset="utf-8"/>
-<link rel="stylesheet" href="css/normalize.css">
-<link rel="stylesheet" href="css/style.css">
-<link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<head>
+  <title>Моя верстка</title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/min.css">
+  <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
 
 <body>
-<div class="container">
-<header class="main-header">
-<h1>Сайт начинающего HTML-верстальщика</h1>
-<div class="main-menu">
-<a href="index.html">Обо мне</a><!--
+  <div class="container">
+    <header class="main-header">
+      <h1>Сайт начинающего HTML-верстальщика</h1>
+      <div class="main-menu">
+        <a href="index.html">Обо мне</a><!--
 --><a href="skills.html">Навыки</a><!--
---><a href="impose.html" class="active">Моя верстка</a>
-</div>
-</header>
+--><a class="active" href="impose.html">Моя верстка</a>
+      </div>
+    </header>
 
 
 
 
 
-<div class="main-content-impose clearfix">
+    <div class="main-content-impose clearfix">
 
-<div class=" project-nerds">
-<h2>Нердс</h2>
+      <div class=" project-nerds">
+        <h2>Нердс</h2>
 
-<a href="#popap-nerds-index" class="nerds-index-img"><img src="img/nerds1.jpg" width="100" height="200"></a><!--
---><a href="#popap-nerds-catalog" class="nerds-catalog-img"><img src="img/nerds-katalog2.png"  width="100" height="200"></a>
-<div class="popap-nerds-index" id="popap-nerds-index">
-<a href="#" class="popap-close"><i class="fa fa-times-circle"></i></a>
-</div>
-<div class="popap-nerds-catalog" id="popap-nerds-catalog">
-<a href="#" class="popap-close"><i class="fa fa-times-circle"></i></a>
-</div>
-<p>Выпускной проект, который я верстала на интенсиве HTML Academy.</p>
-<a href="https://github.com/ekaleks/nerds">Ссылка на GitHub</a>
-</div>
+        <a class="nerds-index-img" href="#popap-nerds-index"><img src="img/nerds1.jpg" alt="" width="100" height="200">
+        </a>
+        <!--
+-->
+        <a class="nerds-catalog-img" href="#popap-nerds-catalog"><img src="img/nerds-katalog2.png" alt="" width="100" height="200">
+        </a>
+        <div class="popap-nerds-index" id="popap-nerds-index">
+          <a class="popap-close" href="#"><i class="fa fa-times" ></i></a>
+          <a class="show-project" href="nerds/index.html">Посмотреть</a>
+        </div>
+        <div class="popap-nerds-catalog" id="popap-nerds-catalog">
+          <a class="popap-close" href="#"><i class="fa fa-times" ></i></a>
+          <a class="show-project" href="nerds/catalog.html">Посмотреть</a>
+        </div>
+        <p>Выпускной проект, который я верстала на интенсиве HTML Academy.</p>
+        <a href="https://github.com/ekaleks/nerds">Ссылка на верстку на GitHub</a>
+      </div>
 
-<div class="project-sedona">
-<h2>Седона</h2>
-<a href="#popap-sedona-index" class="sedona-index-img"><img src="img/sedona-index-768.jpg"  width="100" height="250"></a><!--
---><a href="#popap-sedona-catalog" class="sedona-catalog-img"><img src="img/sedona-768.jpg"  width="100" height="150"></a>
-<div class="popap-sedona-index" id="popap-sedona-index">
-<a href="#" class="popap-close"><i class="fa fa-times-circle"></i></a>
-</div>
-<div class="popap-sedona-catalog" id="popap-sedona-catalog">
-<a href="#" class="popap-close"><i class="fa fa-times-circle"></i></a>
-</div>
-<p>Макет, принадлежащий HTML Academy, который я верстала сама, уже после окончания интенсива. </p>
-<a href="https://github.com/ekaleks/sedona">Ссылка на GitHub</a>
-</div>
+      <div class="project-sedona">
+        <h2>Седона</h2>
+        <a class="sedona-index-img" href="#popap-sedona-index"><img src="img/sedona-index-768.jpg" alt="" width="100" height="250">
+        </a>
+        <!--
+-->
+        <a class="sedona-catalog-img" href="#popap-sedona-catalog"><img src="img/sedona-768.jpg" alt="" width="100" height="150">
+        </a>
+        <div class="popap-sedona-index" id="popap-sedona-index">
+          <a class="popap-close" href="#"><i class="fa fa-times" ></i></i></a>
+          <a class="show-project" href="sedona/index.html">Посмотреть</a>
+        </div>
+        <div class="popap-sedona-catalog" id="popap-sedona-catalog">
+          <a class="popap-close" href="#"><i class="fa fa-times" ></i></a>
+          <a class="show-project" href="sedona/catalog.html">Посмотреть</a>
+        </div>
+        <p>Макет, принадлежащий HTML Academy, который я верстала сама, уже после окончания интенсива.</p>
+        <a href="https://github.com/ekaleks/sedona">Ссылка на верстку на GitHub</a>
+      </div>
+
+    </div>
 
 
-</div>
 
+    <footer class="main-footer">
 
+      <div class="footer-column contacts">
+        <p>Контакты:
+          <br/> mail: klem4@yandex.ru
+          <br/> tel: +7(903)972-65-80</p>
+        <a href="mailto:klem4@yandex.ru">Напишите мне</a>
+      </div>
+      <!--
 
-<footer class="main-footer">
+-->
+      <div class="footer-column social-btn">
+        <a href="https://github.com/ekaleks">
+          <i class="fa fa-github"></i>
+        </a>
+        <a href="skype:klem323">
+          <i class="fa fa-skype"></i>
+        </a>
+        <a class="academy-prof" href="https://htmlacademy.ru/profile/id16605">
+          <i class="fa-academy-prof"></i>
+        </a>
+      </div>
+      <!--
 
-<div class="footer-column contacts">
-<p>Контакты:<br/>
-mail: klem4@yandex.ru<br/>
-tel: +7(903)972-65-80</p>
-<a href="mailto:klem4@yandex.ru">Напишите мне</a>
-</div><!--
-
---><div class="footer-column social-btn">
-<a href="https://github.com/ekaleks"><i class="fa fa-github"></i></a>
-<a href="skype:klem323"><i class="fa fa-skype"></i></a>
-<a href="https://htmlacademy.ru/profile/id16605"class="academy-prof"><i class="fa-academy-prof"></i></a>
-</div><!--
-
---><div class="footer-column link-academy">
-<a href="https://htmlacademy.ru/">HTML ACADEMY</a>
-</div>
-</footer>
-</div>
+-->
+      <div class="footer-column link-academy">
+        <a href="https://htmlacademy.ru/">HTML ACADEMY</a>
+      </div>
+    </footer>
+  </div>
 </body>
+
 </html>
