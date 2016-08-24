@@ -2,14 +2,14 @@ body {
     margin: 0;
     padding-left: 6%;
     padding-right: 6%;
-    background: #778d37;
+    background: #ffffff;
 }
 h1 {
     text-transform: uppercase;
     font-family: "PT Sans", "Arial", sans-serif;
     font-size: 28px;
     font-weight: bold;
-    color: #0d310c;
+    color: #561d13;
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -21,39 +21,28 @@ h1 {
 .container {
     min-width: 555px;
     max-width: 1200px;
-    min-height: 800px;
     margin: 0 auto;
-    background: url("../img/fon.png") repeat fixed;
 }
 .clearfix:after {
     content: "";
     display: block;
     clear: both;
 }
+.main-header{background:#ffffff;}
 .main-header h1 {
-    white-space: nowrap;
-    text-transform: uppercase;
-    font-family: "PT Sans", "Arial", sans-serif;
-    font-size: 28px;
-    font-weight: bold;
-    color: #0d310c;
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 5%;
-    padding-right: 5%;
-    margin-top: 0;
-    margin-bottom: 0;
+    background:#ff5d40;
 }
 .main-menu {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 6%;
-    padding-right: 6%;
-    border-top: 1px solid #0d310c;
+    border-top: 2px solid #ffffff;
 }
 .main-menu a {
-    width: 33%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-top:2px solid #ffffff;
+    background:#a61a00;
+    width: 31%;
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
@@ -63,39 +52,31 @@ h1 {
     font-size: 22px;
     font-weight: bold;
     white-space: nowrap;
-    color: #f6c407;
+    color: #ff2800;
 }
-.main-menu a:first-child {
-    text-align: left;
-}
-.main-menu a:nth-child(2) {
-    text-align: center;
-}
-.main-menu a:last-child {
-    text-align: right;
-}
+.main-menu a:first-child{margin-right:0.5%;}
+.main-menu a:last-child{margin-left:0.5%;}
 .main-menu a:hover {
     color: #ffffff;
 }
 .main-menu .active {
-    color: #ffffff;
+    background:#ff2800;
+    color: #a61a00;
 }
 .main-content {
-    color: #0d310c;
+    color: #000000;
     min-height: 350px;
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 20px;
     padding-bottom: 20px;
-    border-top: 1px solid #0d310c;
-    border-bottom: 1px solid #0d310c;
 }
 .main-content a {
     text-decoration: none;
-    color: #f6c407;
+    color: #ff2800;
 }
 .main-content a:hover {
-    color: #ffffff;
+    color: #00bb3f;
 }
 .main-foto {
     float: left;
@@ -105,7 +86,6 @@ h1 {
 }
 .main-foto img {
     width: 100%;
-    border: 2px solid #0d310c;
 }
 .main-text {
     float: right;
@@ -132,6 +112,7 @@ h1 {
     padding-top: 10px;
     padding-bottom: 10px;
     height: 130px;
+    background:#ff5d40;
 }
 .footer-column {
     width: 33%;
@@ -143,19 +124,25 @@ h1 {
     font-family: "PT Sans", "Arial", sans-serif;
     font-size: 16px;
     font-weight: bold;
-    color: #0d310c;
+    color: #a61a00;
 }
 .contacts a {
     text-transform: uppercase;
+    padding-top:2px;
+    padding-bottom:2px;
+    padding-left:4px;
+    padding-right:4px;
     font-family: "PT Sans", "Arial", sans-serif;
     font-size: 16px;
     font-weight: bold;
     text-decoration: none;
     white-space: nowrap;
-    color: #f6c407;
+    color: #ff2800;
+    border:1px solid #a61a00; 
 }
 .contacts a:hover {
     color: #ffffff;
+    border:1px solid #ffffff;
 }
 .social-btn .fa {
     font-family: "FontAwesome";
@@ -164,7 +151,7 @@ h1 {
 .social-btn a {
     text-decoration: none;
     white-space: nowrap;
-    color: #f6c407;
+    color: #a61a00;
 }
 .social-btn a:hover {
     color: #ffffff;
@@ -179,7 +166,7 @@ h1 {
     top: -10px;
     left: 5px;
     content: "";
-    background: url("../img/logo-academy-el.png") no-repeat;
+    background: url("../img/logo-academy-br.png") no-repeat;
 }
 .fa-academy-prof:hover:after {
     background: url("../img/logo-academy-w.png") no-repeat;
@@ -191,7 +178,7 @@ h1 {
     font-weight: bold;
     text-decoration: none;
     white-space: nowrap;
-    color: #f6c407;
+    color: #a61a00;
 }
 .link-academy a:hover {
     color: #ffffff;
@@ -203,27 +190,26 @@ h1 {
     font-size: 20px;
     font-weight: normal;
     min-height: 350px;
-    color: #0d310c;
+    color: #000000;
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 20px;
     padding-bottom: 20px;
-    border-top: 1px solid #0d310c;
-    border-bottom: 1px solid #0d310c;
 }
 .main-content-skills h2 {
     font-family: "PT Sans", "Arial", sans-serif;
     font-size: 26px;
     font-weight: normal;
     text-transform: uppercase;
+    color:#ff8973;
 }
 .main-content-skills a {
     font-weight: bold;
     text-decoration: none;
-    color: #f6c407;
+    color: #ff2800;
 }
 .main-content-skills a:hover {
-    color: #ffffff;
+    color: #00bb3f;
 }
 .main-skills {
     width: 57%;
@@ -232,6 +218,17 @@ h1 {
     padding-right: 5%;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+.main-skills ul{padding-left:10px;}
+.main-skills li{list-style:none;}
+.main-skills li:before{
+    position:relative;
+    top:-5px;
+    left:-5px;
+    font-weight:bold;
+    font-size:36px;
+    color:#ff2800;
+    content:".";
 }
 .main-certificate {
     width: 23%;
@@ -244,7 +241,9 @@ h1 {
 .main-certificate img {
     width: 100px;
     height: 150px;
-    border: 1px solid #0d310c;
+    border: 1px solid #a61a00;
+    margin-left:10px;
+    margin-top:20px;
 }
 .popap-certificate {
     display: none;
@@ -257,7 +256,7 @@ h1 {
     height: 495px;
     background: #ffffff url("../img/HTMLAcademy-16605.jpeg") no-repeat;
     background-size: 100%;
-    border: 1px solid #0d310c;
+    border: 1px solid #a61a00;
     box-shadow: 0px 10px 60px -5px #000000;
 }
 .popap-certificate-show {
@@ -269,7 +268,7 @@ h1 {
     padding-bottom: 0px;
     font-size: 32px;
     line-height: 32px;
-    color: #ffffff;
+    color: #a61a00;
     position: absolute;
     top: -30px;
     right: -30px;
@@ -277,36 +276,34 @@ h1 {
 }
 /*impose*/
 
-.main-content-impose a {
-    font-weight: bold;
-    text-decoration: none;
-    color: #f6c407;
-}
-.main-content-impose a:hover {
-    color: #ffffff;
-}
+
 .main-content-impose {
     min-height: 350px;
-    color: #0d310c;
+    color: #000000;
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 20px;
     padding-bottom: 20px;
-    border-top: 1px solid #0d310c;
-    border-bottom: 1px solid #0d310c;
+}
+.main-content-impose a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #ff2800;
+    font-family: "PT Sans", "Arial", sans-serif;
+    font-size: 20px;
+    
+}
+.main-content-impose a:hover {
+    color: #00bb3f;
 }
 .main-content-impose h2 {
     font-family: "PT Sans", "Arial", sans-serif;
     font-size: 26px;
     font-weight: normal;
     text-transform: uppercase;
+    color:#ff8973;
 }
 .main-content-impose p {
-    font-family: "PT Sans", "Arial", sans-serif;
-    font-size: 20px;
-    font-weight: normal;
-}
-.main-content-impose a {
     font-family: "PT Sans", "Arial", sans-serif;
     font-size: 20px;
     font-weight: normal;
@@ -323,10 +320,10 @@ h1 {
     display: inline-block;
     vertical-align: top;
     margin: 10px;
-    border: 1px solid #0d310c;
+    border: 1px solid #a61a00;
 }
 .project-nerds h2 {
-    margin-left: 10px;
+    text-align:left;
 }
 .popap-nerds-index {
     display: none;
@@ -339,7 +336,7 @@ h1 {
     height: 630px;
     background: #ffffff url("../img/nerds1.jpg") no-repeat;
     background-size: 100%;
-    border: 1px solid #0d310c;
+    border: 1px solid #a61a00;
     box-shadow: 0px 10px 60px -5px #000000;
 }
 .popap-nerds-index:target {
@@ -356,7 +353,7 @@ h1 {
     height: 630px;
     background: #ffffff url("../img/nerds-katalog2.png") no-repeat;
     background-size: 100%;
-    border: 1px solid #0d310c;
+    border: 1px solid #a61a00;
     box-shadow: 0px 10px 60px -5px #000000;
 }
 .popap-nerds-catalog:target {
@@ -368,7 +365,7 @@ h1 {
     padding-bottom: 0px;
     font-size: 32px;
     line-height: 32px;
-    color: #ffffff;
+    color: #a61a00;
     position: absolute;
     top: -30px;
     right: -30px;
@@ -386,10 +383,10 @@ h1 {
     display: inline-block;
     vertical-align: top;
     margin: 10px;
-    border: 1px solid #0d310c;
+    border: 1px solid #a61a00; 
 }
 .project-sedona h2 {
-    margin-left: 10px;
+    text-align:left;
 }
 .popap-sedona-index {
     display: none;
@@ -402,7 +399,7 @@ h1 {
     height: 720px;
     background: #ffffff url("../img/sedona-index-768.jpg") no-repeat;
     background-size: 100%;
-    border: 1px solid #0d310c;
+    border: 1px solid #a61a00;
     box-shadow: 0px 10px 60px -5px #000000;
 }
 .popap-sedona-index:target {
@@ -419,7 +416,7 @@ h1 {
     height: 480px;
     background: #ffffff url("../img/sedona-768.jpg") no-repeat;
     background-size: 100%;
-    border: 1px solid #0d310c;
+    border: 1px solid #a61a00;
     box-shadow: 0px 10px 60px -5px #000000;
 }
 .popap-sedona-catalog:target {
@@ -431,18 +428,20 @@ h1 {
     padding-bottom: 0px;
     font-size: 32px;
     line-height: 32px;
-    color: #ffffff;
+    color: #a61a00;
     position: absolute;
     top: -30px;
     right: -30px;
     background-color: transparent;
 }
-.show-project {
+.project-nerds .show-project {
     font-family: "PT Sans", "Arial", sans-serif;
-    font-size: 36px;
+    font-size: 20px;
     font-weight: bold;
     text-transform: uppercase;
-    background: #0d310c;
+    background: #ff2800;
+    color: #00bb3f;
+    border: 1px solid #a61a00;
     width: 150px;
     text-align: center;
     padding: 20px;
@@ -454,8 +453,36 @@ h1 {
     left: 50%;
     margin-left: -95px;
 }
-.show-project:hover {
-    background: #f6c407;
-    border: 1px solid #0d310c;
+
+.project-nerds .show-project:hover {
+    background: #00bb3f;
+    border: 1px solid #007929;
+    color: #ff2800;
+    width: 148px;
+}
+.project-sedona .show-project {
+    font-family: "PT Sans", "Arial", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: #ff2800;
+    color: #00bb3f;
+    border: 1px solid #a61a00;
+    width: 150px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 2px;
+    opacity: 0.7;
+    box-shadow: 0px 0px 60px -5px #000000;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    margin-left: -95px;
+}
+
+.project-sedona .show-project:hover {
+    background: #00bb3f;
+    border: 1px solid #007929;
+    color: #ff2800;
     width: 148px;
 }
